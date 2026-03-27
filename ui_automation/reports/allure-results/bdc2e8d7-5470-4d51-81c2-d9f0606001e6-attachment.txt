@@ -1,0 +1,2 @@
+[32mINFO    [0m pages.base_page:base_page.py:32 点击元素: <Locator frame=<Frame name= url='https://sale-test.jdy.com/?accountId=1745223118538710141&_r=1774611359#/pka/pages/goods-list/index'> selector='internal:text="\\u8f66\\u9500"s >> nth=0'>
+[32mINFO    [0m pages.base_page:base_page.py:104 截图已保存: D:\qoder_workspace\ui_automation\screenshots\click_failed__Locator_frame=_Frame_name=_url='https___sale-test.jdy.com__accountId=17452231185387101.png

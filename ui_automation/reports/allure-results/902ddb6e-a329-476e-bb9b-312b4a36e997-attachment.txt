@@ -1,0 +1,7 @@
+[32mINFO    [0m tests.conftest:conftest.py:90 页面不在全部应用页 (https://sale-test.jdy.com/?accountId=1745223118538710141&_r=1774614590#/pka/pages/goods-list/index)，重置中...
+[32mINFO    [0m pages.base_page:base_page.py:32 点击元素: text=全部应用
+[32mINFO    [0m tests.conftest:conftest.py:100 已重置到全部应用页: https://sale-test.jdy.com/?accountId=1745223118538710141#/setting/allApp/index
+[32mINFO    [0m pages.base_page:base_page.py:32 点击元素: <Locator frame=<Frame name= url='https://sale-test.jdy.com/?accountId=1745223118538710141#/setting/allApp/index'> selector='taro-view-core.vertical-menu__wrapper__content:has-text("销售管理") >> nth=0'>
+[32mINFO    [0m pages.app_list_page:app_list_page.py:47 分类 [销售管理] 下获取到 10 个应用: ['销售报价单', '销售订单', '销售出库', '销售退货', '销售退货申请', '销售换货申请', '配送进度', '委托退货', '委托代销', '销售目标管理']
+[32mINFO    [0m tests.test_sales_apps:test_sales_apps.py:44 [销售管理] 实际获取到的应用列表: ['销售报价单', '销售订单', '销售出库', '销售退货', '销售退货申请', '销售换货申请', '配送进度', '委托退货', '委托代销', '销售目标管理']
+[32mINFO    [0m tests.test_sales_apps:test_sales_apps.py:56 [销售管理] 断言通过: 所有期望应用均包含在实际列表中

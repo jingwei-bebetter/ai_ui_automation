@@ -1,0 +1,10 @@
+INFO     pages.base_page:base_page.py:44 输入文本: input[type="tel"], input[placeholder*="手机"], input[placeholder*="账号"], input[name="phone"] <- '13686805851'
+INFO     pages.base_page:base_page.py:44 输入文本: input[type="password"] <- 'A1234567.'
+INFO     pages.base_page:base_page.py:31 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/login'> selector='text=同意 >> nth=0'>
+INFO     pages.base_page:base_page.py:31 点击元素: role=button[name="登录"]
+INFO     pages.base_page:base_page.py:31 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/selectService'> selector='internal:text="\\u79fb\\u52a8\\u81ea\\u52a8\\u5316\\u4e13\\u4e1a\\u7248feat"i'>
+INFO     pages.base_page:base_page.py:31 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/selectService'> selector='internal:text="APP\\u63a5\\u53e3\\u81ea\\u52a8\\u5316\\u6d4b\\u8bd5_feat"i'>
+INFO     pages.base_page:base_page.py:31 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/selectService'> selector='internal:text="\\u9500\\u552e\\u52a9\\u624b"i'>
+INFO     tests.conftest:conftest.py:52 登录及服务选择完成
+INFO     pages.base_page:base_page.py:31 点击元素: text=全部应用
+INFO     pages.base_page:base_page.py:31 点击元素: <Locator frame=<Frame name= url='https://sale-test.jdy.com/?accountId=1745223118538710141#/setting/allApp/index'> selector='internal:text="\\u9500\\u552e\\u7ba1\\u7406"i'>

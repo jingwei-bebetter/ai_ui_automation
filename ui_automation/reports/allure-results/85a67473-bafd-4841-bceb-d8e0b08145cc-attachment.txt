@@ -1,0 +1,29 @@
+INFO     pages.base_page:base_page.py:45 输入文本: input[type="tel"], input[placeholder*="手机"], input[placeholder*="账号"], input[name="phone"] <- '13686805851'
+INFO     pages.base_page:base_page.py:45 输入文本: input[type="password"] <- 'A1234567.'
+INFO     pages.base_page:base_page.py:32 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/login'> selector='text=同意 >> nth=0'>
+INFO     pages.base_page:base_page.py:32 点击元素: role=button[name="登录"]
+INFO     pages.base_page:base_page.py:32 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/login'> selector='internal:text="\\u79fb\\u52a8\\u81ea\\u52a8\\u5316\\u4e13\\u4e1a\\u7248feat"i'>
+INFO     pages.base_page:base_page.py:32 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/selectService'> selector='internal:text="APP\\u63a5\\u53e3\\u81ea\\u52a8\\u5316\\u6d4b\\u8bd5_feat"i'>
+INFO     pages.base_page:base_page.py:32 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/selectService'> selector='internal:text="\\u9500\\u552e\\u52a9\\u624b"i'>
+INFO     pages.base_page:base_page.py:32 点击元素: text=全部应用
+INFO     tests.conftest:conftest.py:76 登录及服务选择完成，已进入全部应用页面
+INFO     pages.base_page:base_page.py:32 点击元素: <Locator frame=<Frame name= url='https://sale-test.jdy.com/?accountId=1745223118538710141#/setting/allApp/index'> selector='taro-view-core.vertical-menu__wrapper__content:has-text("仓库管理") >> nth=0'>
+INFO     tests.test_add_product:test_add_product.py:48 已进入商品列表页: https://sale-test.jdy.com/?accountId=1745223118538710141#/pka/pages/goods-list/index
+INFO     pages.product_page:product_page.py:52 CSS隐藏了 11 个浮层元素
+INFO     pages.product_page:product_page.py:99 已进入新增商品页面
+INFO     pages.product_page:product_page.py:159 已进入商品类别选择页: https://sale-test.jdy.com/?accountId=1745223118538710141#/basedata/list/index?typeId=5&key=parent&action=GoodEditModel/baseDataCallBackActionForDetail&isVirtualWarehouse=1
+INFO     pages.product_page:product_page.py:81 已选择列表项: '自动化新增'
+INFO     pages.product_page:product_page.py:52 CSS隐藏了 11 个浮层元素
+INFO     pages.product_page:product_page.py:172 已选择商品类别: 自动化新增
+INFO     pages.product_page:product_page.py:182 已进入单位设置页: https://sale-test.jdy.com/?accountId=1745223118538710141#/basedata/good-edit/unit/index?checktype=1
+INFO     pages.product_page:product_page.py:189 已进入单位列表页: https://sale-test.jdy.com/?accountId=1745223118538710141#/basedata/list/index?typeId=4&action=UnitModel/baseDataCallBackActionForDetail&key=baseunitid
+INFO     pages.product_page:product_page.py:81 已选择列表项: 'g'
+INFO     pages.product_page:product_page.py:231 已点击按钮: '保存' at y=843
+INFO     pages.product_page:product_page.py:52 CSS隐藏了 11 个浮层元素
+INFO     pages.product_page:product_page.py:211 已选择计量单位: g
+INFO     pages.product_page:product_page.py:149 填写商品名称: 普通商品1774605333
+INFO     pages.product_page:product_page.py:231 已点击按钮: '保存' at y=860
+INFO     pages.product_page:product_page.py:248 保存后仍在编辑页，尝试返回商品列表
+INFO     pages.product_page:product_page.py:257 保存完成，当前URL: https://sale-test.jdy.com/?accountId=1745223118538710141#/setting/allApp/index
+INFO     pages.product_page:product_page.py:286 新增商品完成: 普通商品1774605333
+INFO     tests.test_add_product:test_add_product.py:61 保存后当前URL: https://sale-test.jdy.com/?accountId=1745223118538710141#/setting/allApp/index

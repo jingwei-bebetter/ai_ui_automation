@@ -1,0 +1,13 @@
+[2026-03-27 16:22:26] [INFO] [pages.base_page] 输入文本: input[type="tel"], input[placeholder*="手机"], input[placeholder*="账号"], input[name="phone"] <- '13686805851'
+[2026-03-27 16:22:26] [INFO] [pages.base_page] 输入文本: input[type="password"] <- 'A1234567.'
+[2026-03-27 16:22:26] [INFO] [pages.base_page] 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/login'> selector='text=同意 >> nth=0'>
+[2026-03-27 16:22:26] [INFO] [pages.base_page] 点击元素: role=button[name="登录"]
+[2026-03-27 16:22:26] [INFO] [pages.base_page] 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/login'> selector='internal:text="\\u79fb\\u52a8\\u81ea\\u52a8\\u5316\\u4e13\\u4e1a\\u7248feat"i'>
+[2026-03-27 16:22:28] [INFO] [pages.base_page] 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/selectService'> selector='internal:text="APP\\u63a5\\u53e3\\u81ea\\u52a8\\u5316\\u6d4b\\u8bd5_feat"i'>
+[2026-03-27 16:22:29] [INFO] [pages.base_page] 点击元素: <Locator frame=<Frame name= url='https://msso.jdy.com/selectService'> selector='internal:text="\\u9500\\u552e\\u52a9\\u624b"i'>
+[2026-03-27 16:22:29] [INFO] [pages.base_page] 点击元素: text=全部应用
+[2026-03-27 16:22:32] [INFO] [tests.conftest] 登录及服务选择完成，已进入全部应用页面
+[2026-03-27 16:22:32] [INFO] [pages.base_page] 点击元素: <Locator frame=<Frame name= url='https://sale-test.jdy.com/?accountId=1745223118538710141#/setting/allApp/index'> selector='taro-view-core.vertical-menu__wrapper__content:has-text("销售管理") >> nth=0'>
+[2026-03-27 16:22:33] [INFO] [pages.app_list_page] 分类 [销售管理] 下获取到 10 个应用: ['销售报价单', '销售订单', '销售出库', '销售退货', '销售退货申请', '销售换货申请', '配送进度', '委托退货', '委托代销', '销售目标管理']
+[2026-03-27 16:22:33] [INFO] [tests.test_sales_apps] [销售管理] 实际获取到的应用列表: ['销售报价单', '销售订单', '销售出库', '销售退货', '销售退货申请', '销售换货申请', '配送进度', '委托退货', '委托代销', '销售目标管理']
+[2026-03-27 16:22:33] [INFO] [tests.test_sales_apps] [销售管理] 断言通过: 所有期望应用均包含在实际列表中

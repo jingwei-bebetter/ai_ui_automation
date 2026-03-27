@@ -1,0 +1,4 @@
+[2026-03-27 16:22:33] [INFO] [pages.base_page] 点击元素: <Locator frame=<Frame name= url='https://sale-test.jdy.com/?accountId=1745223118538710141#/setting/allApp/index'> selector='taro-view-core.vertical-menu__wrapper__content:has-text("采购管理") >> nth=0'>
+[2026-03-27 16:22:34] [INFO] [pages.app_list_page] 分类 [采购管理] 下获取到 7 个应用: ['采购申请', '采购订单', '采购入库', '采购退货', '供应商列表', '采购明细分析', '采购订单分析']
+[2026-03-27 16:22:34] [INFO] [tests.test_sales_apps] [采购管理] 实际获取到的应用列表: ['采购申请', '采购订单', '采购入库', '采购退货', '供应商列表', '采购明细分析', '采购订单分析']
+[2026-03-27 16:22:34] [INFO] [tests.test_sales_apps] [采购管理] 断言通过: 所有期望应用均包含在实际列表中

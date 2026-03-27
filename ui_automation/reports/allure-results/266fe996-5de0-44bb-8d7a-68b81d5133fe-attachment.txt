@@ -1,0 +1,2 @@
+[2026-03-27 18:28:56] [INFO] [pages.base_page] 点击元素: <Locator frame=<Frame name= url='https://sale-test.jdy.com/?accountId=1745223118538710141&_r=1774607313#/pka/pages/goods-list/index'> selector='internal:text="\\u91c7\\u8d2d\\u7ba1\\u7406"s >> nth=0'>
+[2026-03-27 18:29:11] [INFO] [pages.base_page] 截图已保存: D:\qoder_workspace\ui_automation\screenshots\click_failed__Locator_frame=_Frame_name=_url='https___sale-test.jdy.com__accountId=17452231185387101.png

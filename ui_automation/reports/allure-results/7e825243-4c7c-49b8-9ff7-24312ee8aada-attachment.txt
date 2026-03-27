@@ -1,0 +1,4 @@
+INFO     pages.base_page:base_page.py:32 点击元素: <Locator frame=<Frame name= url='https://sale-test.jdy.com/?accountId=1745223118538710141#/setting/allApp/index'> selector='taro-view-core.vertical-menu__wrapper__content:has-text("车销") >> nth=0'>
+INFO     pages.app_list_page:app_list_page.py:47 分类 [车销] 下获取到 8 个应用: ['车仓管理', '司机管理', '提货装车', '订单上报', '车销开单', '综合开单', '车销回库', '收支日结']
+INFO     tests.test_sales_apps:test_sales_apps.py:44 [车销] 实际获取到的应用列表: ['车仓管理', '司机管理', '提货装车', '订单上报', '车销开单', '综合开单', '车销回库', '收支日结']
+INFO     tests.test_sales_apps:test_sales_apps.py:56 [车销] 断言通过: 所有期望应用均包含在实际列表中
