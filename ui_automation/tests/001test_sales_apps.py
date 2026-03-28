@@ -20,6 +20,7 @@ class TestAllAppsCategories:
         "仓库管理",
         "车销",
         "访销",
+        "客户经营",
     ])
     def test_category_contains_expected_apps(self, logged_in_page, config, category):
         """
@@ -49,11 +50,26 @@ class TestAllAppsCategories:
 
         if expected_apps:
             missing_apps = set(expected_apps) - set(actual_apps)
+            extra_apps = set(actual_apps) - set(expected_apps)
+            
             assert not missing_apps, (
-                f"以下期望的应用未在【{category}】中找到: {missing_apps}\n"
-                f"实际应用列表: {actual_apps}"
+                f"以下期望的应用未在【{category}】中找到：{missing_apps}\n"
+                f"实际应用列表：{actual_apps}"
             )
-            logger.info(f"[{category}] 断言通过: 所有期望应用均包含在实际列表中")
+            
+            assert not extra_apps, (
+                f"实际应用中包含了未期望的项目：{extra_apps}\n"
+                f"实际应用列表：{actual_apps}\n"
+                f"期望应用列表：{expected_apps}"
+            )
+            
+            assert len(actual_apps) == len(expected_apps), (
+                f"实际应用数量 ({len(actual_apps)}) 与期望数量 ({len(expected_apps)}) 不匹配\n"
+                f"实际应用列表：{actual_apps}\n"
+                f"期望应用列表：{expected_apps}"
+            )
+            
+            logger.info(f"[{category}] 断言通过：实际结果与期望结果完全一致")
         else:
             logger.warning(
                 f"未配置【{category}】的期望应用列表，实际获取到: {actual_apps}"
